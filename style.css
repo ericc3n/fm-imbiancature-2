@@ -1,7 +1,7 @@
 :root {
-  --yellow: #5ef500;
+  --yellow: #e6007e;
   --black: #111111;
-  --mint: hsl(97, 70%, 60%);
+  --mint: hsl(327, 70%, 60%);
   --gray: #f4f4f4;
   --white: #ffffff;
   --font-heading: "Playfair Display", serif;
@@ -306,7 +306,7 @@ nav {
   text-decoration: none;
   color: var(--black);
   transition: var(--transition);
-  box-shadow: 0 10px 20px rgba(245, 200, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(230, 0, 126, 0.3);
 }
 
 .cta-circle:hover {
@@ -386,7 +386,7 @@ nav {
 }
 
 .service-badge span {
-  color: #008b74;
+  color: #8b004c;
 }
 
 /* 5. FULL WIDTH IMAGE */
