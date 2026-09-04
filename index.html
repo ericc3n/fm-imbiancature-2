@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F.M. - Ristrutturazioni e Imbiancature</title>
+    <!-- Favicon standard (browser tab + bookmark) -->
+    <link rel="icon" type="image/png" href="public/favicon.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="public/favicon.png" sizes="16x16" />
+
+    <!-- Fallback legacy -->
+    <link rel="shortcut icon" href="public/favicon.png" />
+
+    <!-- Apple iOS (icona quando aggiunto alla Home) -->
+    <link rel="apple-touch-icon" href="public/favicon.png" />
+
+    <!-- Apple meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="FM GROUP" />
+
+    <!-- Android / Chrome -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="public/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="public/favicon.png"
+    />
+
+    <!-- Theme color (barra browser mobile) -->
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="og" href="public/favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav-inner">
+        <a href="">
+          <img src="public/logo.svg" style="height: 64px" />
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Apri menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-content" id="nav-content">
+          <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="#servizi">Servizi</a></li>
+            <li><a href="galleria/">Galleria</a></li>
+            <li><a href="contatti/">Contatti</a></li>
+          </ul>
+          <div class="nav-contact">
+            <a href="tel:+393494470106" class="icon-link" aria-label="Chiama"
+              >📞</a
+            >
+            <a
+              href="mailto:fmagnasrl@gmail.com"
+              class="icon-link"
+              aria-label="Email"
+              >✉️</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content fade-in-up">
+          <svg
+            class="brushstroke"
+            viewBox="0 0 500 300"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="var(--mint)"
+              d="M40,150 C80,-10 380,-20 480,120 C520,180 430,280 320,270 C150,250 -10,250 40,150 Z"
+              opacity="0.4"
+            />
+          </svg>
+
+          <span class="label">Da oltre 40 anni al tuo servizio</span>
+          <h1>
+            Valorizza<br /><i>il tuo immobile</i><br />con un unico fornitore
+          </h1>
+
+          <div class="badge">
+            <span class="badge-check">✓</span> Sopralluogo gratuito
+          </div>
+
+          <p class="hero-sub">
+            Siamo specializzati da oltre 40 anni in imbiancature ambienti
+            residenziali e industriali, pavimentazioni e isolamenti. La qualità
+            artigiana per i tuoi spazi.
+          </p>
+
+          <a href="#contatti" class="btn">Contattaci</a>
+        </div>
+
+        <div
+          class="hero-image-wrapper fade-in-up"
+          style="transition-delay: 0.2s"
+        >
+          <img
+            src="public/hero-main.jpg"
+            alt="Imbianchino al lavoro"
+            class="hero-img-main"
+            loading="lazy"
+          />
+
+          <img
+            src="public/image-circle.jpg"
+            alt="Pennelli da pittura"
+            class="circle-img circle-1"
+            loading="lazy"
+          />
+          <img
+            src="public/hero-main-2.jpg"
+            alt="Mazzette colori"
+            class="circle-img circle-2"
+            loading="lazy"
+          />
+
+          <a href="#servizi" class="cta-circle">↗</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="services section-padding" id="servizi">
+      <div class="container">
+        <span class="label fade-in-up">Le nostre competenze</span>
+        <h2
+          class="serif fade-in-up"
+          style="font-size: 2.5rem; margin-bottom: 1rem"
+        >
+          Servizi su misura per te
+        </h2>
+
+        <div class="services-grid">
+          <div class="service-card fade-in-up" style="transition-delay: 0.1s">
+            <img
+              src="public/imbiancamenti.jpeg"
+              alt="Imbiancature interni e esterni"
+              style="
+                display: block;
+                width: 100%;
+                aspect-ratio: 16/ 9;
+                object-fit: cover;
+                border-radius: 8px;
+                margin-bottom: 1rem;
+              "
+            />
+            <h3>Imbiancature interni e esterni</h3>
+            <p>
+              Estetica e protezione per abitazioni, uffici e capannoni.
+              Utilizziamo vernici di alta qualità e tecniche all'avanguardia.
+            </p>
+          </div>
+          <div class="service-card fade-in-up" style="transition-delay: 0.2s">
+            <img
+              src="public/resina.jpeg"
+              alt="Pavimenti in resina e legno"
+              style="
+                display: block;
+                width: 100%;
+                aspect-ratio: 16/ 9;
+                object-fit: cover;
+                border-radius: 8px;
+                margin-bottom: 1rem;
+              "
+            />
+            <h3>Pavimenti in resina e legno</h3>
+            <p>
+              Legno, laminato o resine all'avanguardia. Soluzioni durevoli ed
+              esteticamente perfette per rinnovare ogni ambiente.
+            </p>
+          </div>
+          <div class="service-card fade-in-up" style="transition-delay: 0.3s">
+            <img
+              src="public/isolamenti.jpeg"
+              alt="Cappotti e isolamenti"
+              style="
+                display: block;
+                width: 100%;
+                aspect-ratio: 16/ 9;
+                object-fit: cover;
+                border-radius: 8px;
+                margin-bottom: 1rem;
+              "
+            />
+            <h3>Cappotti e isolamenti</h3>
+            <p>
+              Riduci i consumi e aumenta il comfort abitativo. Interventi mirati
+              di isolamento termico e acustico per il massimo risparmio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-we-work section-padding">
+      <div class="container">
+        <h2
+          class="serif fade-in-up"
+          style="font-size: 3rem; margin-bottom: 1rem"
+        >
+          Come lavoriamo
+        </h2>
+
+        <div class="steps-container">
+          <div class="step-row fade-in-up">
+            <div class="step-label-col">1</div>
+            <div class="step-title-col">
+              <img src="public/handshake.svg" alt="Consulenza" loading="lazy" />
+              <h3>Sopralluogo gratuito</h3>
+            </div>
+            <div class="step-desc-col">
+              <p>
+                Incontriamo i clienti per comprendere a fondo le loro esigenze,
+                valutare gli spazi e proporre le migliori soluzioni estetiche e
+                funzionali.
+              </p>
+            </div>
+          </div>
+
+          <div class="step-row fade-in-up">
+            <div class="step-label-col">2</div>
+            <div class="step-title-col">
+              <img src="public/paper.svg" alt="Preventivo" loading="lazy" />
+              <h3>Preventivo trasparente</h3>
+            </div>
+            <div class="step-desc-col">
+              <p>
+                Forniamo una stima dettagliata dei costi e delle tempistiche,
+                senza sorprese, garantendo chiarezza fin dal primo documento.
+              </p>
+            </div>
+          </div>
+
+          <div class="step-row fade-in-up">
+            <div class="step-label-col">3</div>
+            <div class="step-title-col">
+              <img src="public/painter.svg" alt="Lavorazione" loading="lazy" />
+              <h3>Lavorazione professionale</h3>
+            </div>
+            <div class="step-desc-col">
+              <p>
+                Il nostro team di esperti artigiani esegue i lavori utilizzando
+                materiali premium e tecniche certificate per un risultato
+                durevole.
+              </p>
+            </div>
+          </div>
+
+          <div class="step-row fade-in-up">
+            <div class="step-label-col">4</div>
+            <div class="step-title-col">
+              <img
+                src="public/broom.svg"
+                alt="Cantiere pulito"
+                loading="lazy"
+              />
+              <h3>Cantiere pulito e puntuale</h3>
+            </div>
+            <div class="step-desc-col">
+              <p>
+                Rispettiamo i tempi di consegna concordati e ci assicuriamo di
+                lasciare gli ambienti perfettamente puliti e pronti da vivere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section-padding" id="dicono-di-noi">
+      <div class="container">
+        <div class="test-header fade-in-up">
+          <div>
+            <span class="label" style="color: var(--yellow)"
+              >Testimonianze</span
+            >
+            <h2>Oltre 40 anni di soddisfazione</h2>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-btn" id="prev-btn">←</button>
+            <button class="carousel-btn" id="next-btn">→</button>
+          </div>
+        </div>
+
+        <div class="carousel-viewport fade-in-up">
+          <div class="carousel-track" id="testimonial-track">
+            <div class="testimonial-card">
+              <div class="test-inner">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="quote">
+                  "Professionalità incredibile. Hanno ristrutturato il nostro
+                  ufficio nei tempi stabiliti. Finiture perfette e cantiere
+                  lasciato in condizioni immacolate."
+                </p>
+                <div class="client-info">
+                  <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&auto=format&fit=crop&crop=face"
+                    alt="Marco R."
+                    loading="lazy"
+                  />
+                  <h4>Marco R.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="test-inner">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="quote">
+                  "Ho chiamato FM Group per il cappotto termico della mia
+                  villetta. Risultato eccellente, personale gentile e sempre
+                  disponibile a spiegare i dettagli tecnici."
+                </p>
+                <div class="client-info">
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&auto=format&fit=crop&crop=face"
+                    alt="Giulia B."
+                    loading="lazy"
+                  />
+                  <h4>Giulia B.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="test-inner">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="quote">
+                  "Hanno rifatto tutto il pavimento in resina del nostro locale
+                  commerciale. Il lavoro è impeccabile e dona una luce
+                  completamente nuova all'ambiente."
+                </p>
+                <div class="client-info">
+                  <img
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&auto=format&fit=crop&crop=face"
+                    alt="Alessandro M."
+                    loading="lazy"
+                  />
+                  <h4>Alessandro M.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="test-inner">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="quote">
+                  "Dall'imbiancatura alle finiture in cartongesso, un unico
+                  interlocutore che ha risolto ogni problema. Prezzi onesti e
+                  massima trasparenza."
+                </p>
+                <div class="client-info">
+                  <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&auto=format&fit=crop&crop=face"
+                    alt="Luca F."
+                    loading="lazy"
+                  />
+                  <h4>Luca F.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-cta fade-in-up" id="contatti">
+      <div class="container">
+        <h2 class="serif">
+          Hai un progetto in mente?<br />Partiamo da un sopralluogo gratuito
+        </h2>
+        <a href="contatti/" class="btn">Contattaci subito</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="" class="footer-logo">
+              <img src="public/logo.svg" style="height: 64px" />
+            </a>
+            <p>
+              F.M. srl<br />La qualità artigiana per i tuoi spazi, da oltre 40
+              anni
+            </p>
+            <p style="margin-top: 1rem">P. IVA: 13799590966</p>
+          </div>
+          <div class="footer-links">
+            <h4>Contatti</h4>
+            <ul>
+              <li><a href="tel:+393494470106">+39 3494470106</a></li>
+              <li>
+                <a href="mailto:fmagnasrl@gmail.com"
+                  >fmagnasrl@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/CNxugdj95UUibFBq8"
+                  target="_blank"
+                >
+                  Via Ugo Foscolo, 7A - 28069 Trecate NO
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Esplora</h4>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="#servizi">I nostri servizi</a></li>
+              <li><a href="#dicono-di-noi">Dicono di noi</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 F.M. srl. Tutti i diritti riservati - Realizzato da
+            <a href="https://www.studiocolore.it" target="_blank"
+              >Studio Colore</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
