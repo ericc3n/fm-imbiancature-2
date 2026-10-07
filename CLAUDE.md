@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project overview
 
-Static multi-page marketing website for F.M. srl (imbiancature, ristrutturazioni, pavimenti in resina). No build step, no package manager, no framework — plain HTML/CSS/vanilla JS served as-is. Deployed via GitHub Pages with a custom domain (see `CNAME`: `fm-srl.com`).
+Static multi-page marketing website for F.M. Group Srl (imbiancature, ristrutturazioni, pavimenti in resina). No build step, no package manager, no framework — plain HTML/CSS/vanilla JS served as-is. Deployed via GitHub Pages with a custom domain (see `CNAME`: `fm-srl.com`).
 
 ## Commands
 
